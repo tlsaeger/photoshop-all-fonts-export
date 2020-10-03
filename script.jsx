@@ -17,7 +17,7 @@ for (i = 0; i < app.fonts.length; i++){
     //set the refrenced text to the one from the var 
     text.textItem.font = newFont;
     //save as new document 
-    saveJPEG('output' + i);
+    saveJPEG(i + newFont);
 }
 //save function
 function saveJPEG(name) {
